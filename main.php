@@ -19,7 +19,7 @@ getcsv(array_keys($rows));
 }
 while($rows)
 {
-getcsv($rows);   oo
+getcsv($rows);   
 $rows = mysqli_fetch_assoc($select_table);
 }
   
