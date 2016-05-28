@@ -14,7 +14,7 @@ $select_table=mysqli_query($db,'select * from Products');
 $rows = mysqli_fetch_assoc($select_table);
 
 if ($rows)
-{dddddsd
+{dddddsdvdsfs
 getcsv(array_keys($rows));
 }
 while($rows)
